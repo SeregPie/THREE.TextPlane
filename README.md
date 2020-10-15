@@ -143,4 +143,4 @@ Used to check whether this is an instance of `TextPlane`.
 
 `.dispose()`
 
-Disposes the texture and the material.
+Disposes the geometry, the texture and the material.
