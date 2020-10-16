@@ -77,7 +77,7 @@ plane.text = [
 ```
 new THREE.TextPlane({
   alignment: 'center',
-  backgroundColor = 'rgba(0,0,0,0)',
+  backgroundColor: 'rgba(0,0,0,0)',
   color: '#fff',
   fontFamily: 'sans-serif',
   fontSize: 1,
