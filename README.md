@@ -39,7 +39,7 @@ The class is globally available as `THREE.TextPlane`.
 ## usage
 
 ```javascript
-let plane = new THREE.TextPlane({
+let instance = new THREE.TextPlane({
   alignment: 'left',
   color: '#24ff00',
   fontFamily: '"Times New Roman", Times, serif',
@@ -52,7 +52,7 @@ let plane = new THREE.TextPlane({
     'Like a diamond in the sky.',
   ].join('\n'),
 });
-scene.add(plane);
+scene.add(instance);
 ```
 
 ---
@@ -60,9 +60,9 @@ scene.add(plane);
 Update the plane.
 
 ```javascript
-plane.fontFamily = 'Arial, Helvetica, sans-serif';
-plane.fontStyle = 'normal';
-plane.text = [
+instance.fontFamily = 'Arial, Helvetica, sans-serif';
+instance.fontStyle = 'normal';
+instance.text = [
   'When this blazing sun is gone,',
   'When he nothing shines upon,',
   'Then you show your little light,',
