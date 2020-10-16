@@ -1,5 +1,7 @@
 import {
+	DoubleSide,
 	Mesh,
+	MeshBasicMaterial,
 	PlaneGeometry,
 } from 'three';
 import TextTexture from '@seregpie/three.text-texture';
@@ -10,7 +12,10 @@ let Class = class extends Mesh {
 			fontSize = 1,
 			...options
 		} = {},
-		material,
+		material = new MeshBasicMaterial({
+			depthWrite: false,
+			side: DoubleSide,
+		}),
 	) {
 		let geometry = new PlaneGeometry();
 		super(geometry, material);
