@@ -61,6 +61,7 @@ let Class = class extends Mesh {
 
 [
 	'alignment',
+	'backgroundColor',
 	'color',
 	'fontFamily',
 	'fontSize',

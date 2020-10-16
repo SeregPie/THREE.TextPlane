@@ -6,6 +6,7 @@ import {
 export default class TextPlane extends Mesh {
 	constructor(options?: {
 		alignment?: string;
+		backgroundColor?: string;
 		color?: string;
 		fontFamily?: string;
 		fontSize?: number;
@@ -44,6 +45,8 @@ export default class TextPlane extends Mesh {
 	lineGap: number;
 
 	padding: number;
+
+	backgroundColor: string;
 
 	dispose(): void;
 }
