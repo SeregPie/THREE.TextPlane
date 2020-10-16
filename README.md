@@ -57,7 +57,7 @@ scene.add(instance);
 
 ---
 
-Update the plane.
+Update the instance.
 
 ```javascript
 instance.fontFamily = 'Arial, Helvetica, sans-serif';
